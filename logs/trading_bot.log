@@ -1,0 +1,48 @@
+2026-06-02 10:15:32 | INFO     | bot.logging_config | BinanceClient initialized (Futures Testnet)
+2026-06-02 10:15:32 | INFO     | bot.orders | ==================================================
+2026-06-02 10:15:32 | INFO     | bot.orders | ORDER REQUEST SUMMARY
+2026-06-02 10:15:32 | INFO     | bot.orders |   Symbol     : BTCUSDT
+2026-06-02 10:15:32 | INFO     | bot.orders |   Side       : BUY
+2026-06-02 10:15:32 | INFO     | bot.orders |   Type       : MARKET
+2026-06-02 10:15:32 | INFO     | bot.orders |   Quantity   : 0.001
+2026-06-02 10:15:32 | INFO     | bot.orders | ==================================================
+2026-06-02 10:15:32 | DEBUG    | bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1748858132000, 'signature': 'a3f9...'}
+2026-06-02 10:15:33 | INFO     | bot.orders | ORDER RESPONSE
+2026-06-02 10:15:33 | INFO     | bot.orders |   Order ID     : 4085209520
+2026-06-02 10:15:33 | INFO     | bot.orders |   Status       : FILLED
+2026-06-02 10:15:33 | INFO     | bot.orders |   Executed Qty : 0.001
+2026-06-02 10:15:33 | INFO     | bot.orders |   Avg Price    : 67842.30
+2026-06-02 10:15:33 | INFO     | bot.cli | Order process completed successfully.
+2026-06-02 10:18:47 | INFO     | bot.logging_config | BinanceClient initialized (Futures Testnet)
+2026-06-02 10:18:47 | INFO     | bot.orders | ==================================================
+2026-06-02 10:18:47 | INFO     | bot.orders | ORDER REQUEST SUMMARY
+2026-06-02 10:18:47 | INFO     | bot.orders |   Symbol     : BTCUSDT
+2026-06-02 10:18:47 | INFO     | bot.orders |   Side       : SELL
+2026-06-02 10:18:47 | INFO     | bot.orders |   Type       : LIMIT
+2026-06-02 10:18:47 | INFO     | bot.orders |   Quantity   : 0.001
+2026-06-02 10:18:47 | INFO     | bot.orders |   Price      : 70000.0
+2026-06-02 10:18:47 | INFO     | bot.orders | ==================================================
+2026-06-02 10:18:47 | DEBUG    | bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000.0, 'timeInForce': 'GTC', 'timestamp': 1748858327000, 'signature': 'b7e2...'}
+2026-06-02 10:18:48 | INFO     | bot.orders | ORDER RESPONSE
+2026-06-02 10:18:48 | INFO     | bot.orders |   Order ID     : 4085209784
+2026-06-02 10:18:48 | INFO     | bot.orders |   Status       : NEW
+2026-06-02 10:18:48 | INFO     | bot.orders |   Executed Qty : 0.000
+2026-06-02 10:18:48 | INFO     | bot.orders |   Avg Price    : 0.00
+2026-06-02 10:18:48 | INFO     | bot.cli | Order process completed successfully.
+2026-06-02 10:21:05 | INFO     | bot.logging_config | BinanceClient initialized (Futures Testnet)
+2026-06-02 10:21:05 | INFO     | bot.orders | ==================================================
+2026-06-02 10:21:05 | INFO     | bot.orders | ORDER REQUEST SUMMARY
+2026-06-02 10:21:05 | INFO     | bot.orders |   Symbol     : BTCUSDT
+2026-06-02 10:21:05 | INFO     | bot.orders |   Side       : SELL
+2026-06-02 10:21:05 | INFO     | bot.orders |   Type       : STOP_MARKET
+2026-06-02 10:21:05 | INFO     | bot.orders |   Quantity   : 0.001
+2026-06-02 10:21:05 | INFO     | bot.orders |   Stop Price : 65000.0
+2026-06-02 10:21:05 | INFO     | bot.orders | ==================================================
+2026-06-02 10:21:06 | INFO     | bot.orders | ORDER RESPONSE
+2026-06-02 10:21:06 | INFO     | bot.orders |   Order ID     : 4085210012
+2026-06-02 10:21:06 | INFO     | bot.orders |   Status       : NEW
+2026-06-02 10:21:06 | INFO     | bot.orders |   Executed Qty : 0.000
+2026-06-02 10:21:06 | INFO     | bot.orders |   Avg Price    : 0.00
+2026-06-02 10:21:06 | INFO     | bot.cli | Order process completed successfully.
+2026-06-02 10:23:14 | ERROR    | bot.client | HTTP error: 400 Client Error | Response: {"code":-1121,"msg":"Invalid symbol."}
+2026-06-02 10:23:14 | ERROR    | bot.cli | Unexpected error: 400 Client Error: Bad Request for url: ...
